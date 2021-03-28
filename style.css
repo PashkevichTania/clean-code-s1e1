@@ -115,7 +115,8 @@ label[for="new-task"] {
 }
 
 /* Task list */
-li {
+.completed-tasks__element,
+.incomplete-tasks__element {
     overflow: hidden;
     padding: 20px 0;
     border-bottom: 1px solid #eee;
@@ -129,7 +130,7 @@ li > * {
     vertical-align: middle;
 }
 
-li > input[type="checkbox"] {
+.checkbox-input {
     margin: 0 10px;
 }
 
@@ -140,21 +141,21 @@ li > label {
     width: 226px;
 }
 
-li > input[type="text"] {
+.text-input {
     width: 226px
 }
 
-li > button.delete:hover {
+.delete:hover {
     color: #cf2323;
 }
 
-button.delete img {
+.delete-img {
     height: 2em;
     transform: rotateZ(45deg);
     transition: transform 200ms ease-in;
 }
 
-button.delete img:hover {
+.delete-img:hover {
     transform: rotateZ(0);
 }
 
