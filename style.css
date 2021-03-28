@@ -16,7 +16,7 @@
     width: 100%;
 }
 
-.main-image__more_inf {
+.main-image__link {
     font-family: fantasy, cursive;
 }
 
@@ -38,7 +38,7 @@
     flex-grow: 1
 }
 
-.task-row-wrapper {
+.add-section__task-row-wrapper {
     display: flex;
 }
 
