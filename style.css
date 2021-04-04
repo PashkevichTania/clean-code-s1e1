@@ -112,7 +112,7 @@ label[for="new-task"] {
     width: 318px;
 }
 
-#add-section__button {
+#add-section__button:hover {
     color: #0fc57c;
 }
 
